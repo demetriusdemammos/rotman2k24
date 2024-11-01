@@ -14,8 +14,8 @@ s = requests.Session()
 s.headers.update({'X-API-key': 'NLJFH66O'}) # Make sure you use YOUR API Key
 
 # global variables
-MAX_LONG_EXPOSURE = 300000
-MAX_SHORT_EXPOSURE = -100000
+MAX_LONG_EXPOSURE = 250000
+MAX_SHORT_EXPOSURE = -250000
 ORDER_LIMIT = 5000
 
 def get_tick():
